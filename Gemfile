@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.4.1' if ENV.key?('DYNO')
 
-gem 'jekyll', '>=3.1.6'
+gem 'jekyll', '>= 3.9.0'
 gem 'rdiscount', '>=2.2.0.1'
 
 gem 'jekyll-redirect-from'
@@ -10,10 +10,10 @@ gem 'jekyll-paginate'
 
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 
 gem 'faraday'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.12', '>= 3.12.0'
